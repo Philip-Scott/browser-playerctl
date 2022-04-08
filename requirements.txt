@@ -1,0 +1,4 @@
+dbus-python==1.2.18
+glib==1.0.0
+pyinstaller==4.10
+PyGObject==3.40.1

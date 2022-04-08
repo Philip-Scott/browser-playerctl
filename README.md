@@ -1,4 +1,6 @@
-# browser-playerctl
+# browser-playerctl - For Steam Deck's Chrome
+
+-------------------------
 
 Implements [MPRIS](https://specifications.freedesktop.org/mpris-spec/latest/) interface for chrome, which allows you to control things like play/pause, next/previous, shuffle, etc from command line, allowing you to map keyword shortcuts. You can also fetch information of currently playing video/song and display in status bar for example.
 
