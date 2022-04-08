@@ -1,7 +1,7 @@
 {
     "name": "org.mpris.browser_host",
     "description": "A DBus service",
-    "path": "/home/deck/.local/share/browser-playerctl/launcher.sh",
+    "path": "/home/deck/homebrew/browser-playerctl/launcher.sh",
     "type": "stdio",
     "allowed_origins": [
         "chrome-extension://ojjjidifjmbbckdjfiagdfdepbcmnicg/"
