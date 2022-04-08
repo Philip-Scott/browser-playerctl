@@ -9,11 +9,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-
-    - name: Install Python, pipenv and Pipfile packages
-      uses: palewire/install-python-pipenv-pipfile@v2
+    - name: Setup Python
+      uses: actions/setup-python@v3.1.1
       with:
+        # Version range or exact version of a Python version to use, using SemVer's version range syntax.
         python-version: 3.9
+  
+    - name: Python Pip Install
+      # You may pin to the exact commit or the version.
+      # uses: logikal-code/pip-install@51d215f7fc153e741488726defaa8cb84ea35300
+      uses: logikal-code/pip-install@v1.0.0
 
     - run: ./bundle.sh
 
